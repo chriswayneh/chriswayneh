@@ -20,7 +20,7 @@ A secure, local-first MCP toolbox that exposes narrow, read-only environment-ins
 
 ### [JobDorking](https://github.com/chriswayneh/jobdorking)
 
-A deliberately simple production job-search utility that builds targeted Google search queries client-side. [Visit JobDorking](https://jobdorking.com).
+A production job-search workspace with targeted Google-query generation, saved searches, daily tracking, and optional cross-device cloud sync. [Visit JobDorking](https://jobdorking.com).
 
 ## Engineering Areas
 
