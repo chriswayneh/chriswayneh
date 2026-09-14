@@ -2,29 +2,18 @@
 
 I build identity, container-native, and local AI systems with a focus on least privilege, evidence, observability, and operational reliability.
 
-### Current Focus
+### Projects
 
-#### [RedDock](https://github.com/chriswayneh/RedDock)
+- **[RedDock](https://github.com/chriswayneh/RedDock)** · Active  
+  Security assessment tooling for approved targets, from discovery through evidence-backed reporting. Current work focuses on production hardening.
 
-A container-native security assessment platform for controlled execution, deterministic analysis, and evidence-backed reporting. Current work focuses on production hardening.
-
-#### [Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
-
-A local-first toolkit for secure, read-only inspection of approved developer environments. Current work focuses on its stable core and integrations.
-
-### Featured Engineering
-
-- **[RedDock](https://github.com/chriswayneh/RedDock)**  
-  Security assessment tooling that takes an approved target from discovery through detection, validation, correlation, optional local AI guidance, and downloadable reporting. Findings remain traceable to retained evidence across the API and web interface.
+- **[Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)** · Active  
+  Local-first MCP tools for secure, read-only inspection of approved developer environments. Current work focuses on the stable core and integrations.
 
 - **[Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)**  
-  Self-hosted infrastructure and identity-governance lab built with Docker Compose. Models realistic lifecycle automation, group-based RBAC, access review, secrets management, and operational observability.
-
-- **[Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)**  
-  Secure, local-first MCP toolbox for read-only environment inspection, with least-privilege policy, redaction, and audit.
+  A Docker Compose lab for identity governance, lifecycle automation, RBAC, access reviews, secrets management, and observability.
 
 ### Other Work
-
 - **[JobDorking](https://github.com/chriswayneh/jobdorking)**  
   Account-optional job-search workspace that turns roles and filters into targeted Google queries, with saved searches, streak tracking, and optional cross-device sync. Development is currently on hold while I focus on RedDock and infrastructure projects. [Visit JobDorking](https://jobdorking.com)
 
