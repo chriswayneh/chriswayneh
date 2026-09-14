@@ -1,6 +1,6 @@
 **Security & Infrastructure Engineer**
 
-I build identity, container-native, and local AI systems that prioritize least privilege, evidence, observability, and operational reliability over demos.
+I build identity, container-native, and local AI systems with a focus on least privilege, evidence, observability, and operational reliability.
 
 ### Current Focus
 
