@@ -14,6 +14,7 @@ I build identity, container-native, and local AI systems with a focus on least p
   A Docker Compose lab for identity governance, lifecycle automation, RBAC, access reviews, secrets management, and observability.
 
 ### Other Work
+
 - **[JobDorking](https://github.com/chriswayneh/jobdorking)**  
   Account-optional job-search workspace that turns roles and filters into targeted Google queries, with saved searches, streak tracking, and optional cross-device sync. Development is currently on hold while I focus on RedDock and infrastructure projects. [Visit JobDorking](https://jobdorking.com)
 
