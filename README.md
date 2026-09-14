@@ -4,7 +4,13 @@ I build identity, container-native, and local AI systems with a focus on least p
 
 ### Current Focus
 
-**Actively developing [RedDock](https://github.com/chriswayneh/RedDock) and [Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox).** RedDock is a container-native security assessment platform built for controlled execution, deterministic analysis, and evidence-backed reporting. Local MCP Toolbox provides secure, local-first, read-only inspection for approved developer environments. Current work spans RedDock production hardening and the Toolbox's stable core, connected integrations, and operational intelligence roadmap.
+#### [RedDock](https://github.com/chriswayneh/RedDock)
+
+A container-native security assessment platform for controlled execution, deterministic analysis, and evidence-backed reporting. Current work focuses on production hardening.
+
+#### [Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
+
+A local-first toolkit for secure, read-only inspection of approved developer environments. Current work focuses on its stable core and integrations.
 
 ### Featured Engineering
 
