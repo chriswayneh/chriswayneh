@@ -18,6 +18,8 @@ Read-only MCP server for looking at files, git state, logs, and container health
 **[jobdorking](https://github.com/chriswayneh/jobdorking)**  
 Job search helper I built for myself. Not active right now. Site is still up at [jobdorking.com](https://jobdorking.com).
 
+**[kube-foundry](https://github.com/chriswayneh/kube-foundry)**  
+A small Kubernetes stack I'm messing with on kind: an API, worker, Postgres, Redis, and Cilium network policies. The [roadmap](https://github.com/chriswayneh/kube-foundry/blob/main/docs/phases.md) is taking it toward ingress, TLS, observability, and GitOps.
 ## Contact
 
 [linkedin.com/in/chriswhickman](https://www.linkedin.com/in/chriswhickman/)
