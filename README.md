@@ -1,24 +1,23 @@
 **IAM / IGA Engineer**
 
-I design identity lifecycle, group-based RBAC, access reviews, and evidence-backed controls — then prove them in running systems. Least privilege, observability, and operational reliability come first.
+Identity lifecycle, group-based RBAC, access reviews, secrets, evidence.
 
-**Start here:** [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box) is the work sample. It is a self-hosted identity lab with Keycloak, joiner/mover/leaver automation, an RBAC simulator, campaign-style access reviews, Vault policies, and retained audit evidence.
+Work sample: [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)
 
-### Featured work
+### Projects
 
-- **[Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)** · Primary work sample  
-  Identity governance lab: JML across Keycloak, Vault, and Gitea; group-based RBAC; access recertification; secrets; observability. Open the README recruiter tour if you were sent this profile from an application.
+- **[Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)**  
+  Keycloak lab with joiner/mover/leaver, RBAC simulator, access-review campaigns, Vault, and audit logs.
 
-- **[RedDock](https://github.com/chriswayneh/RedDock)** · Active  
-  Authorized-scope security assessment: discovery, explainable findings, hashed evidence, and portable reports. Built to keep conclusion and proof together.
+- **[RedDock](https://github.com/chriswayneh/RedDock)**  
+  Scoped discovery, findings tied to hashed evidence, downloadable reports. Local use only.
 
-- **[Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)** · Active  
-  Local-first, read-only MCP server with deny-by-default policy, redaction, output bounds, and an audit trail. Treats AI tooling as an identity and least-privilege problem.
+- **[Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)**  
+  Read-only MCP server. Deny by default, redaction, output limits, audit trail.
 
-### Other
-
-- **[JobDorking](https://github.com/chriswayneh/jobdorking)** — job-search workspace ([jobdorking.com](https://jobdorking.com)). On hold while I focus on identity and security engineering work.
+- **[JobDorking](https://github.com/chriswayneh/jobdorking)**  
+  Job-search workspace. On hold. [jobdorking.com](https://jobdorking.com)
 
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/chriswhickman/) · Open to IAM / IGA roles in DFW or remote
+[LinkedIn](https://www.linkedin.com/in/chriswhickman/)
