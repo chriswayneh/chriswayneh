@@ -1,6 +1,6 @@
 # Chris Hickman
 
-Senior security and support engineer. Most of my work is identity and access: how accounts get created, how access changes when someone moves, and how it gets taken away when they leave. I also spend a lot of time on the support side of that, meaning logs, tickets, broken connectors, and explaining to people why a login failed.
+Senior security and support engineer. Recent public work is identity and access: how accounts get created, how access changes when someone moves, and how it gets taken away when they leave. The same habits show up in the rest of my work. Read the logs, fix the broken integration, and explain why a login or a job failed.
 
 I keep a few public repos here so I can show the work instead of describing it on a resume.
 
