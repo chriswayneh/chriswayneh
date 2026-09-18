@@ -1,23 +1,23 @@
-**IAM / IGA Engineer**
+# Chris Hickman
 
-Identity lifecycle, group-based RBAC, access reviews, secrets, evidence.
+Senior security and support engineer. Most of my work is identity and access: how accounts get created, how access changes when someone moves, and how it gets taken away when they leave. I also spend a lot of time on the support side of that, meaning logs, tickets, broken connectors, and explaining to people why a login failed.
 
-Work sample: [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)
+I keep a few public repos here so I can show the work instead of describing it on a resume.
 
-### Projects
+## Repos
 
-- **[Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)**  
-  Keycloak lab with joiner/mover/leaver, RBAC simulator, access-review campaigns, Vault, and audit logs.
+**[lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box)**  
+Local identity lab. Keycloak, Vault, and Gitea wired together so I can run joiner, mover, and leaver flows, check effective access, and run an access review. If a company asked for a GitHub link, this is the one to open.
 
-- **[RedDock](https://github.com/chriswayneh/RedDock)**  
-  Scoped discovery, findings tied to hashed evidence, downloadable reports. Local use only.
+**[RedDock](https://github.com/chriswayneh/RedDock)**  
+Small assessment tool for machines I am allowed to scan. It records what it checked, what it found, and the files that support the finding. It is meant to stay on localhost.
 
-- **[Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)**  
-  Read-only MCP server. Deny by default, redaction, output limits, audit trail.
+**[local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox)**  
+Read-only MCP server for looking at files, git state, logs, and container health on a machine I already control. It will not run commands or change anything. Access is allowlisted and logged.
 
-- **[JobDorking](https://github.com/chriswayneh/jobdorking)**  
-  Job-search workspace. On hold. [jobdorking.com](https://jobdorking.com)
+**[jobdorking](https://github.com/chriswayneh/jobdorking)**  
+Job search helper I built for myself. Not active right now. Site is still up at [jobdorking.com](https://jobdorking.com).
 
-### Contact
+## Contact
 
-[LinkedIn](https://www.linkedin.com/in/chriswhickman/)
+[linkedin.com/in/chriswhickman](https://www.linkedin.com/in/chriswhickman/)
