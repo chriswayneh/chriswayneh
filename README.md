@@ -1,25 +1,31 @@
 # Chris Hickman
 
-Senior security and support engineer. Recent work is identity and access: how accounts get created, how access changes when someone moves, and how it gets taken away when they leave. The same habits show up in the rest of my work. Read the logs, fix the broken integration, and explain why a login or a job failed.
+Senior security and support engineer focused on identity and access, infrastructure, and reliable operations. My work includes account lifecycle management, access controls, integration troubleshooting, and the investigation of failed logins and automated jobs.
 
-I post projects here that I build in my downtime.
+I build projects in my spare time to explore practical problems in security and infrastructure. My focus is on clear access boundaries, useful logs, and systems that are straightforward to operate and troubleshoot.
 
-## Repos
+## Projects
 
-**[lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box)**  
-Local identity lab. Keycloak, Vault, and Gitea wired together so I can run joiner, mover, and leaver flows, check effective access, and run an access review. If a company asked for a GitHub link, this is the one to open.
+### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
 
-**[RedDock](https://github.com/chriswayneh/RedDock)**  
-Small assessment tool for machines I am allowed to scan. It records what it checked, what it found, and the files that support the finding. It is meant to stay on localhost.
+A Kubernetes platform in development for running an application and its supporting services on kind. The current stack includes a FastAPI service, a background worker, PostgreSQL, Redis, and Cilium network policies. The [roadmap](https://github.com/chriswayneh/kube-foundry/blob/main/docs/phases.md) covers traffic routing, TLS, observability, and GitOps.
 
-**[local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox)**  
-Read-only MCP server for looking at files, git state, logs, and container health on a machine I already control. It will not run commands or change anything. Access is allowlisted and logged.
+### [lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box)
 
-**[jobdorking](https://github.com/chriswayneh/jobdorking)**  
-Job search helper I built for myself. Not active right now. Site is still up at [jobdorking.com](https://jobdorking.com).
+An identity and infrastructure lab built with Keycloak, Vault, and Gitea. It models joiner, mover, and leaver workflows, effective access checks, and access reviews to examine how permissions change throughout an account's lifecycle.
 
-**[kube-foundry](https://github.com/chriswayneh/kube-foundry)**  
-A small Kubernetes stack I'm messing with on kind: an API, worker, Postgres, Redis, and Cilium network policies. The [roadmap](https://github.com/chriswayneh/kube-foundry/blob/main/docs/phases.md) is taking it toward ingress, TLS, observability, and GitOps.
+### [RedDock](https://github.com/chriswayneh/RedDock)
+
+A security assessment tool for authorized use in local environments. It records the checks performed, findings, and supporting evidence so results can be reviewed and traced back to their source.
+
+### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
+
+A read-only MCP server for inspecting local files, Git state, logs, and container health. Access is controlled through allowlists and audit logging, with no command execution or changes to the inspected environment.
+
+### [jobdorking](https://github.com/chriswayneh/jobdorking)
+
+A personal job-search tool for organizing targeted searches. Development is currently inactive. The site is available at [jobdorking.com](https://jobdorking.com).
+
 ## Contact
 
-[linkedin.com/in/chriswhickman](https://www.linkedin.com/in/chriswhickman/)
+[LinkedIn](https://www.linkedin.com/in/chriswhickman/)
