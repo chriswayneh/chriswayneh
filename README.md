@@ -8,7 +8,9 @@ I build projects in my spare time to explore practical problems in security and 
 
 ### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
 
-A Kubernetes platform in development for running an application and its supporting services on kind. The current stack includes a FastAPI service, a background worker, PostgreSQL, Redis, and Cilium network policies. The [roadmap](https://github.com/chriswayneh/kube-foundry/blob/main/docs/phases.md) covers traffic routing, TLS, observability, and GitOps.
+A local Kubernetes reference platform for deploying applications, validating infrastructure changes, and testing recovery without cloud infrastructure. Version 1.0.0 includes Argo CD GitOps delivery, network and admission policies, TLS routing, Prometheus and Grafana monitoring, and verified database backup and recovery workflows.
+
+[v1.0.0 release](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.0.0) | [Architecture and setup](https://github.com/chriswayneh/kube-foundry#readme) | [Verification results](https://github.com/chriswayneh/kube-foundry/blob/main/docs/release.md#acceptance-record)
 
 ### [lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box)
 
