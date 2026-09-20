@@ -22,7 +22,9 @@ A security assessment tool for authorized use in local environments. It records 
 
 ### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
 
-A read-only MCP server for inspecting local files, Git state, logs, and container health. Access is controlled through allowlists and audit logging, with no command execution or changes to the inspected environment.
+A local, read-only MCP server with a completed v1.5 inspection scope. Version 1.5.2 covers approved files, Git and GitHub metadata, logs, container health, and static Python environment checks. Zero-trust controls include explicit allowlists, bounded output, central redaction, and sanitized audit records. No arbitrary command execution or mutation tools are exposed.
+
+[v1.5.2 release](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) | [Architecture and setup](https://github.com/chriswayneh/local-mcp-toolbox#readme) | [Verification results and limitations](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
 
 ### [jobdorking](https://github.com/chriswayneh/jobdorking)
 
