@@ -2,23 +2,23 @@
 
 Senior security and support engineer focused on identity and access, infrastructure, and reliable operations. My work includes account lifecycle management, access controls, integration troubleshooting, and the investigation of failed logins and automated jobs.
 
-I build projects in my spare time to explore practical problems in security and infrastructure. My focus is on clear access boundaries, useful logs, and systems that are straightforward to operate and troubleshoot.
+My projects apply zero-trust principles through explicit authorization, least privilege, bounded capabilities, and reviewable evidence. I document the controls each project implements, the identities and infrastructure it still trusts, and the limits of its supported deployment. These are concrete engineering choices, not a blanket security certification.
 
 ## Projects
 
 ### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
 
-A local Kubernetes reference platform for deploying applications, validating infrastructure changes, and testing recovery without cloud infrastructure. Version 1.0.0 includes Argo CD GitOps delivery, network and admission policies, TLS routing, Prometheus and Grafana monitoring, and verified database backup and recovery workflows.
+A local Kubernetes reference platform for deploying applications, validating infrastructure changes, and testing recovery without cloud infrastructure. Version 1.0.0 includes Argo CD GitOps delivery, default-deny application networking, scoped observer RBAC, admission policies, TLS routing, monitoring, and verified database recovery. These support zero-trust principles at workload boundaries; the sample application has no user authentication, and cluster administrators remain trusted.
 
 [v1.0.0 release](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.0.0) | [Architecture and setup](https://github.com/chriswayneh/kube-foundry#readme) | [Verification results](https://github.com/chriswayneh/kube-foundry/blob/main/docs/release.md#acceptance-record)
 
 ### [lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box)
 
-An identity and infrastructure lab built with Keycloak, Vault, and Gitea. It models joiner, mover, and leaver workflows, effective access checks, and access reviews to examine how permissions change throughout an account's lifecycle.
+An identity and infrastructure lab built with Keycloak, Vault, and Gitea. It demonstrates zero-trust principles through group-based access, least-privilege secret policies, effective-access checks, access reviews, and session revocation during identity lifecycle changes. It remains a local lab with documented development defaults and privileged components, not an internet-hardened deployment.
 
 ### [RedDock](https://github.com/chriswayneh/RedDock)
 
-A security assessment tool for authorized use in local environments. It records the checks performed, findings, and supporting evidence so results can be reviewed and traced back to their source.
+A security assessment tool for authorized local environments. Its zero-trust controls include fail-closed target scope checks immediately before contact, fixed tool arguments, separate approvals for validation, and evidence-linked findings. The local operator boundary is not shared-user authentication or authorization for arbitrary targets.
 
 ### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
 
@@ -28,7 +28,7 @@ A local, read-only MCP server with a completed v1.5 inspection scope. Version 1.
 
 ### [jobdorking](https://github.com/chriswayneh/jobdorking)
 
-A personal job-search tool for organizing targeted searches. Development is currently inactive. The site is available at [jobdorking.com](https://jobdorking.com).
+A personal job-search tool for organizing targeted searches. Optional cloud workspace access uses server-verified session tokens and user-scoped database queries; signed-out work remains local. These are specific access and privacy controls, not a claim of a complete zero-trust architecture. Development is currently inactive. The site is available at [jobdorking.com](https://jobdorking.com).
 
 ## Contact
 
