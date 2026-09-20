@@ -26,7 +26,7 @@ A local, read-only MCP server with a completed v1.5 inspection scope. Version 1.
 
 [v1.5.2 release](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) | [Architecture and setup](https://github.com/chriswayneh/local-mcp-toolbox#readme) | [Verification results and limitations](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
 
-### [jobdorking](https://github.com/chriswayneh/jobdorking)
+### [jobdorking](https://jobdorking.com)
 
 A personal job-search tool for organizing targeted searches. Optional cloud workspace access uses server-verified session tokens and user-scoped database queries; signed-out work remains local. These are specific access and privacy controls, not a claim of a complete zero-trust architecture. Development is currently inactive. The site is available at [jobdorking.com](https://jobdorking.com).
 
