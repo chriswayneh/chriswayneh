@@ -1,35 +1,45 @@
 # Chris Hickman
 
-Senior security and support engineer focused on identity and access, infrastructure, and reliable operations. My work includes account lifecycle management, access controls, integration troubleshooting, and the investigation of failed logins and automated jobs.
+**IAM and Platform Engineer** — I design identity workflows, access controls, and container-native platforms you can run, inspect, and verify locally.
 
-My projects apply zero-trust principles through explicit authorization, least privilege, bounded capabilities, and reviewable evidence. I document the controls each project implements, the identities and infrastructure it still trusts, and the limits of its supported deployment. These are concrete engineering choices, not a blanket security certification.
+Day-to-day focus: account lifecycle, least-privilege access, integration troubleshooting, and making auth and ops failures diagnosable. Portfolio work below shows the same ideas as runnable labs and reference platforms, with documented trust boundaries rather than marketing claims.
 
-## Projects
+## Featured projects
 
-### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
+### [lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box) — identity + infra lab (v2.0.0)
 
-A local Kubernetes reference platform for deploying applications, validating infrastructure changes, and testing recovery without cloud infrastructure. Version 1.0.0 includes Argo CD GitOps delivery, default-deny application networking, scoped observer RBAC, admission policies, TLS routing, monitoring, and verified database recovery. These support zero-trust principles at workload boundaries; the sample application has no user authentication, and cluster administrators remain trusted.
+One-command Docker Compose lab: Keycloak, Vault, Gitea, Traefik, Prometheus/Alertmanager/Grafana, and more. [v2.0.0](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) adds Traefik ForwardAuth (oauth2-proxy + Keycloak OIDC/PKCE and realm roles), Alertmanager routing, and hardened observability UI access.
 
-[v1.0.0 release](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.0.0) | [Architecture and setup](https://github.com/chriswayneh/kube-foundry#readme) | [Verification results](https://github.com/chriswayneh/kube-foundry/blob/main/docs/release.md#acceptance-record)
+Also includes joiner/mover/leaver automation, a read-only RBAC simulator (“what can this person reach, and why?”), access-review campaigns, and Vault ACL policies. Local lab with documented defaults—not an internet-hardened product.
 
-### [lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box)
+[Release notes](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) · [README](https://github.com/chriswayneh/lab-in-a-box#readme)
 
-An identity and infrastructure lab built with Keycloak, Vault, and Gitea. It demonstrates zero-trust principles through group-based access, least-privilege secret policies, effective-access checks, access reviews, and session revocation during identity lifecycle changes. It remains a local lab with documented development defaults and privileged components, not an internet-hardened deployment.
+### [kube-foundry](https://github.com/chriswayneh/kube-foundry) — local Kubernetes reference platform (v1.0.0)
 
-### [RedDock](https://github.com/chriswayneh/RedDock)
+Kind-based platform for deploying apps, validating infra changes, and testing recovery without cloud spend. Ships Argo CD GitOps, default-deny networking, scoped observer RBAC, admission policies, TLS routing, monitoring, and verified database recovery. Sample app has no user auth; cluster admins remain trusted operators.
 
-A security assessment tool for authorized local environments. Its zero-trust controls include fail-closed target scope checks immediately before contact, fixed tool arguments, separate approvals for validation, and evidence-linked findings. The local operator boundary is not shared-user authentication or authorization for arbitrary targets.
+[v1.0.0](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.0.0) · [Architecture](https://github.com/chriswayneh/kube-foundry#readme) · [Verification](https://github.com/chriswayneh/kube-foundry/blob/main/docs/release.md#acceptance-record)
 
-### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
+### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox) — read-only MCP inspection (v1.5.2)
 
-A local, read-only MCP server with a completed v1.5 inspection scope. Version 1.5.2 covers approved files, Git and GitHub metadata, logs, container health, and static Python environment checks. Zero-trust controls include explicit allowlists, bounded output, central redaction, and sanitized audit records. No arbitrary command execution or mutation tools are exposed.
+Local MCP server scoped to approved files, Git/GitHub metadata, logs, container health, and static Python checks. Controls: explicit allowlists, bounded output, central redaction, sanitized audit records. No arbitrary command execution or mutation tools.
 
-[v1.5.2 release](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) | [Architecture and setup](https://github.com/chriswayneh/local-mcp-toolbox#readme) | [Verification results and limitations](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
+[v1.5.2](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) · [README](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Limits & verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
 
-### [jobdorking](https://jobdorking.com)
+### [RedDock](https://github.com/chriswayneh/RedDock) — authorized assessment tooling
 
-A personal job-search tool for organizing targeted searches. Optional cloud workspace access uses server-verified session tokens and user-scoped database queries; signed-out work remains local. These are specific access and privacy controls, not a claim of a complete zero-trust architecture. Development is currently inactive. The site is available at [jobdorking.com](https://jobdorking.com).
+Vulnerability discovery and validation for authorized local environments: fail-closed target scope checks, fixed tool arguments, separate validation approvals, and evidence-linked findings. Operator boundary is local authorization—not shared multi-tenant access control.
+
+## Other
+
+### [JobDorking](https://jobdorking.com)
+
+Personal job-search workspace (targeted queries, tracking; optional cloud sync with server-verified sessions). Development currently inactive.
+
+## How I write about security
+
+I prefer naming mechanisms—OIDC, forward-auth, least privilege, policy-as-code, allowlists, audit evidence—over slogans. When a project borrows from zero trust, its README states what is enforced and what is still trusted (see [lab-in-a-box security notes](https://github.com/chriswayneh/lab-in-a-box#security)).
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/chriswhickman/)
+[LinkedIn](https://www.linkedin.com/in/chriswhickman/) · [GitHub](https://github.com/chriswayneh)
