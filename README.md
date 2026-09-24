@@ -10,7 +10,7 @@ Day-to-day focus: account lifecycle, least-privilege access, integration trouble
 
 One-command Docker Compose lab: Keycloak, Vault, Gitea, Traefik, Prometheus/Alertmanager/Grafana, and more. [v2.0.0](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) adds Traefik ForwardAuth (oauth2-proxy + Keycloak OIDC/PKCE and realm roles), Alertmanager routing, and hardened observability UI access.
 
-Also includes joiner/mover/leaver automation, a read-only RBAC simulator (“what can this person reach, and why?”), access-review campaigns, and Vault ACL policies. Local lab with documented defaults, not an internet-hardened product.
+Also includes joiner/mover/leaver automation, a read-only RBAC simulator ("what can this person reach, and why?"), access-review campaigns, and Vault ACL policies. Local lab with documented defaults, not an internet-hardened product.
 
 [Release notes](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) · [README](https://github.com/chriswayneh/lab-in-a-box#readme)
 
@@ -25,6 +25,12 @@ Kind-based platform for deploying apps, validating infra changes, and testing re
 Local MCP server scoped to approved files, Git/GitHub metadata, logs, container health, and static Python checks. Controls: explicit allowlists, bounded output, central redaction, sanitized audit records. No arbitrary command execution or mutation tools.
 
 [v1.5.2](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) · [README](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Limits & verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
+
+### [detdrift](https://github.com/chriswayneh/detdrift) - detection drift check (v0.1.1)
+
+CLI and CI check for Sigma rules: compare before/after NDJSON samples and report which detections would go quiet when fields disappear from a mapping change. Offline, exit-code friendly, not a SIEM and not a full Sigma matcher. Complements pipeline and detection-as-code work without owning ingest.
+
+[v0.1.1](https://github.com/chriswayneh/detdrift/releases/tag/v0.1.1) · [README](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md) · [Roadmap](https://github.com/chriswayneh/detdrift/blob/main/ROADMAP.md)
 
 ### [RedDock](https://github.com/chriswayneh/RedDock) - authorized assessment tooling
 
