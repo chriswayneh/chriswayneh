@@ -26,11 +26,11 @@ Local MCP server scoped to approved files, Git/GitHub metadata, logs, container 
 
 [v1.5.2](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) · [README](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Limits & verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
 
-### [detdrift](https://github.com/chriswayneh/detdrift) - detection drift check (v0.6.0)
+### [detdrift](https://github.com/chriswayneh/detdrift) - detection drift check (v0.6.1)
 
-CLI and CI check for detection field drift (Sigma default; optional KQL): compare before/after NDJSON samples and report which rules would go quiet when fields disappear from a mapping change. Offline, exit-code friendly, not a SIEM and not a matcher. Complements pipeline and detection-as-code work without owning ingest.
+CLI, reusable Action, and CI check for detection field drift (Sigma default; optional KQL/SPL via dialect): compare before/after NDJSON samples and report which rules would go quiet when fields disappear from a mapping change. Offline, exit-code friendly, not a SIEM and not a matcher. Complements pipeline and detection-as-code work without owning ingest.
 
-[v0.6.0](https://github.com/chriswayneh/detdrift/releases/tag/v0.6.0) · [README](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md) · [Roadmap](https://github.com/chriswayneh/detdrift/blob/main/ROADMAP.md)
+[v0.6.1](https://github.com/chriswayneh/detdrift/releases/tag/v0.6.1) · [README](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md) · [Roadmap](https://github.com/chriswayneh/detdrift/blob/main/ROADMAP.md)
 
 ### [RedDock](https://github.com/chriswayneh/RedDock) - authorized assessment tooling
 
