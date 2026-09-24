@@ -30,7 +30,7 @@ Local MCP server scoped to approved files, Git/GitHub metadata, logs, container 
 
 CLI and CI check for detection field drift (Sigma default; optional KQL): compare before/after NDJSON samples and report which rules would go quiet when fields disappear from a mapping change. Offline, exit-code friendly, not a SIEM and not a matcher. Complements pipeline and detection-as-code work without owning ingest.
 
-[v0.4.2](https://github.com/chriswayneh/detdrift/releases/tag/v0.5.0) · [README](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md) · [Roadmap](https://github.com/chriswayneh/detdrift/blob/main/ROADMAP.md)
+[v0.5.0](https://github.com/chriswayneh/detdrift/releases/tag/v0.5.0) · [README](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md) · [Roadmap](https://github.com/chriswayneh/detdrift/blob/main/ROADMAP.md)
 
 ### [RedDock](https://github.com/chriswayneh/RedDock) - authorized assessment tooling
 
