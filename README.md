@@ -1,53 +1,49 @@
 # Chris Hickman
 
-**IAM and Platform Engineer**. I design identity workflows, access controls, and container-native platforms you can run, inspect, and verify locally.
+**Security & Infrastructure Engineer**
 
-Day-to-day focus: account lifecycle, least-privilege access, integration troubleshooting, and making auth and ops failures diagnosable. Portfolio work below shows the same ideas as runnable labs and reference platforms, with documented trust boundaries rather than marketing claims.
+My work spans identity and access management, systems engineering, and security engineering. I build software and automation for account lifecycle management, access controls, infrastructure delivery, and security assessment.
 
 ## Featured projects
 
-### [lab-in-a-box](https://github.com/chriswayneh/lab-in-a-box) - identity + infra lab (v2.0.0)
+### [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)
 
-One-command Docker Compose lab: Keycloak, Vault, Gitea, Traefik, Prometheus/Alertmanager/Grafana, and more. [v2.0.0](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) adds Traefik ForwardAuth (oauth2-proxy + Keycloak OIDC/PKCE and realm roles), Alertmanager routing, and hardened observability UI access.
+A self-hosted infrastructure and identity lab built with Docker Compose, Keycloak, Vault, and Gitea. Includes joiner/mover/leaver automation, RBAC analysis, access-review campaigns, and secrets management.
 
-Also includes joiner/mover/leaver automation, a read-only RBAC simulator ("what can this person reach, and why?"), access-review campaigns, and Vault ACL policies. Local lab with documented defaults, not an internet-hardened product.
+Version 2.0 adds OIDC-based access controls through Traefik and oauth2-proxy, role-based access to monitoring interfaces, and Alertmanager routing.
 
-[Release notes](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) · [README](https://github.com/chriswayneh/lab-in-a-box#readme)
+[v2.0.0](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) · [Documentation](https://github.com/chriswayneh/lab-in-a-box#readme)
 
-### [kube-foundry](https://github.com/chriswayneh/kube-foundry) - local Kubernetes reference platform (v1.1.0)
+### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
 
-Kind-based platform for deploying apps, validating infra changes, and testing recovery without cloud spend. Ships Argo CD GitOps, default-deny networking, scoped observer RBAC, admission policies, TLS routing, monitoring, and verified database recovery. Sample app has no user auth; cluster admins remain trusted operators.
+A local Kubernetes reference platform built on kind, with Argo CD delivery, default-deny networking, scoped RBAC, admission policies, TLS routing, and monitoring.
 
-v1.1.0 adds verified Git-backed image promotion and Git-revert rollback, policy rejection and remediation, and checksum-linked database recovery evidence. These workflows were exercised on an isolated three-node cluster, with explicit limits on production promotion and application data cutover.
+Version 1.1 includes tested workflows for image promotion and rollback, policy rejection and remediation, and database restore verification. Acceptance testing was performed on an isolated three-node cluster.
 
-[v1.1.0](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.1.0) · [Architecture](https://github.com/chriswayneh/kube-foundry#readme) · [Operational proof and verification](https://github.com/chriswayneh/kube-foundry/blob/v1.1.0/docs/operational-proof.md#acceptance-record)
+[v1.1.0](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.1.0) · [Documentation](https://github.com/chriswayneh/kube-foundry#readme) · [Test results](https://github.com/chriswayneh/kube-foundry/blob/v1.1.0/docs/operational-proof.md#acceptance-record)
 
-### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox) - read-only MCP inspection (v1.5.2)
+### [Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox)
 
-Local MCP server scoped to approved files, Git/GitHub metadata, logs, container health, and static Python checks. Controls: explicit allowlists, bounded output, central redaction, sanitized audit records. No arbitrary command execution or mutation tools.
+A read-only MCP server that gives AI clients controlled access to local files, Git and GitHub metadata, logs, container health, and static Python checks. Uses explicit allowlists, output limits, centralized redaction, and audit records.
 
-[v1.5.2](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) · [README](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Limits & verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
+[v1.5.2](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) · [Documentation](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Release verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
 
-### [detdrift](https://github.com/chriswayneh/detdrift) - detection drift check (v1.0.0)
+### [detdrift](https://github.com/chriswayneh/detdrift)
 
-CLI, reusable Action, and CI check for detection field drift (Sigma default; optional KQL/SPL via dialect): compare before/after NDJSON samples and report which rules would go quiet when fields disappear from a mapping change. Offline, exit-code friendly, stable 1.0 report contract (`schema_version` 1). Not a SIEM and not a matcher. Complements pipeline and detection-as-code work without owning ingest.
+A CLI and GitHub Action for identifying detection rules affected by telemetry schema changes. Compares before-and-after event samples to flag missing fields used by Sigma rules, with optional KQL and SPL support. Produces structured reports and exit codes for CI pipelines.
 
-[v1.0.0](https://github.com/chriswayneh/detdrift/releases/tag/v1.0.0) · [README](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md) · [Roadmap](https://github.com/chriswayneh/detdrift/blob/main/ROADMAP.md)
+[v1.0.0](https://github.com/chriswayneh/detdrift/releases/tag/v1.0.0) · [Documentation](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md)
 
-### [RedDock](https://github.com/chriswayneh/RedDock) - authorized assessment tooling
+### [RedDock](https://github.com/chriswayneh/RedDock)
 
-Vulnerability discovery and validation for authorized local environments: fail-closed target scope checks, fixed tool arguments, separate validation approvals, and evidence-linked findings. Operator boundary is local authorization, not shared multi-tenant access control.
+A security assessment platform for vulnerability discovery and validation in authorized local environments. Enforces target scope, restricts tool arguments, requires separate approval for validation, and links findings to supporting evidence.
 
-## Other
+## Other work
 
 ### [JobDorking](https://jobdorking.com)
 
-Personal job-search workspace (targeted queries, tracking; optional cloud sync with server-verified sessions). Development currently inactive.
-
-## How I write about security
-
-I prefer naming mechanisms (OIDC, forward-auth, least privilege, policy-as-code, allowlists, audit evidence) over slogans. When a project borrows from zero trust, its README states what is enforced and what is still trusted (see [lab-in-a-box security notes](https://github.com/chriswayneh/lab-in-a-box#security)).
+A job-search workspace with targeted queries, saved searches, and optional cloud sync. Development is currently inactive.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/chriswhickman/) · [GitHub](https://github.com/chriswayneh)
+[LinkedIn](https://www.linkedin.com/in/chriswhickman/)
