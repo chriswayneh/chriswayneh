@@ -38,6 +38,8 @@ A CLI and GitHub Action for identifying detection rules affected by telemetry sc
 
 A security assessment platform for vulnerability discovery and validation in authorized local environments. Enforces target scope, restricts tool arguments, requires separate approval for validation, and links findings to supporting evidence.
 
+[v0.8.1](https://github.com/chriswayneh/RedDock/releases/tag/v0.8.1) · [Documentation](https://github.com/chriswayneh/RedDock#readme) · [Security model](https://github.com/chriswayneh/RedDock/blob/master/SECURITY.md)
+
 ## Other work
 
 ### [JobDorking](https://jobdorking.com)
