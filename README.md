@@ -14,11 +14,13 @@ Also includes joiner/mover/leaver automation, a read-only RBAC simulator ("what 
 
 [Release notes](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) · [README](https://github.com/chriswayneh/lab-in-a-box#readme)
 
-### [kube-foundry](https://github.com/chriswayneh/kube-foundry) - local Kubernetes reference platform (v1.0.0)
+### [kube-foundry](https://github.com/chriswayneh/kube-foundry) - local Kubernetes reference platform (v1.1.0)
 
 Kind-based platform for deploying apps, validating infra changes, and testing recovery without cloud spend. Ships Argo CD GitOps, default-deny networking, scoped observer RBAC, admission policies, TLS routing, monitoring, and verified database recovery. Sample app has no user auth; cluster admins remain trusted operators.
 
-[v1.0.0](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.0.0) · [Architecture](https://github.com/chriswayneh/kube-foundry#readme) · [Verification](https://github.com/chriswayneh/kube-foundry/blob/main/docs/release.md#acceptance-record)
+v1.1.0 adds verified Git-backed image promotion and Git-revert rollback, policy rejection and remediation, and checksum-linked database recovery evidence. These workflows were exercised on an isolated three-node cluster, with explicit limits on production promotion and application data cutover.
+
+[v1.1.0](https://github.com/chriswayneh/kube-foundry/releases/tag/v1.1.0) · [Architecture](https://github.com/chriswayneh/kube-foundry#readme) · [Operational proof and verification](https://github.com/chriswayneh/kube-foundry/blob/v1.1.0/docs/operational-proof.md#acceptance-record)
 
 ### [local-mcp-toolbox](https://github.com/chriswayneh/local-mcp-toolbox) - read-only MCP inspection (v1.5.2)
 
