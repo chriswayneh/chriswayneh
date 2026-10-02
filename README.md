@@ -1,8 +1,8 @@
 # Chris Hickman
 
-**Security & Infrastructure Engineer**
+**Identity and infrastructure security**
 
-I build infrastructure labs and security tools for managing access, deploying services, and investigating security findings.
+Experienced IT and identity security engineer, with hands-on work across IAM. GitHub is the technical side: access control, local platforms, and evidence you can read.
 
 ## Featured projects
 
