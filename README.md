@@ -40,7 +40,11 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ### [JobDorking](https://jobdorking.com)
 
-A job-search workspace with targeted queries, saved searches, and optional cloud sync. Development is currently inactive.
+A finished job-search site. It builds one Google search across job boards and company career pages. Free to use, no account required.
+
+### [Hello Due](https://hellodue.com)
+
+A live shop for independent workers: a free rate calculator, a free invoice generator, and paid downloadable packs.
 
 ## Contact
 
