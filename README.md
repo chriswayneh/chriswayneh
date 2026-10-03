@@ -40,11 +40,11 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ### [JobDorking](https://jobdorking.com)
 
-A live private site that is making money. The source stays private. It builds one Google search across job boards and company career pages.
+A live site that was public and is now producing. The source stays private. It builds one Google search across job boards and company career pages.
 
 ### [Hello Due](https://hellodue.com)
 
-A live private site that is making money. The source stays private. It offers a rate calculator, an invoice generator, and paid downloadable packs.
+A live site that was public and is now producing. The source stays private. It offers a rate calculator, an invoice generator, and paid downloadable packs.
 
 ## Contact
 
