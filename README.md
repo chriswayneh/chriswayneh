@@ -36,6 +36,12 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 [v0.8.1](https://github.com/chriswayneh/RedDock/releases/tag/v0.8.1) · [Documentation](https://github.com/chriswayneh/RedDock#readme) · [Security model](https://github.com/chriswayneh/RedDock/blob/master/SECURITY.md)
 
+### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
+
+A lightweight local web UI and CLI for generating AWS, Azure, and Google Cloud Terraform recipes through a guided questionnaire. Includes configuration previews, resource explanations, Terraform/TFLint validation, and an initial local plan reviewer. Provisioning and broader VM configuration are on the roadmap.
+
+[v0.2.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.2.0) · [Documentation](https://github.com/chriswayneh/TerraForma-IaC#readme) · [Roadmap](https://github.com/chriswayneh/TerraForma-IaC/blob/main/docs/ROADMAP.md)
+
 ## Other work
 
 ### [JobDorking](https://jobdorking.com)
