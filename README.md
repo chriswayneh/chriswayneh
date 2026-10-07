@@ -38,11 +38,13 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
 
-Create cloud configuration by answering questions instead of writing Terraform syntax from scratch. Terraform is a set of text files describing servers, networks, storage, and access rules so a setup can be reviewed and repeated.
+I’m building TerraForma to make a complicated, manual cloud setup process easier and more repeatable. It turns answers to straightforward questions into setup files, explains what they describe, and helps check them before use.
 
-For example, choose an AWS web server, name it, and select its access and encryption options. TerraForma produces editable Terraform files for the server and supporting infrastructure, explains what they describe, and offers local checks with Terraform and TFLint. It runs on your own computer through a browser interface or a command-line questionnaire, with templates for AWS, Azure, and Google Cloud.
+For example, someone who needs a server to host a website can choose a cloud service, name the project, and select who should be able to access it. TerraForma produces a downloadable blueprint for the server and its supporting network. The files can be reviewed, edited, and reused.
 
-**Current scope:** v0.2.0 generates, explains, exports, and validates configuration; it also reviews existing Terraform plan JSON. It does not create cloud resources or run plan/apply/destroy. Development on `main` adds richer input questions and initial Linux VM templates. Complete Linux/Windows VM configuration and approved deployment are planned.
+**Available now:** a guided browser interface that runs on your own computer, a terminal option, explanations, and local configuration checks. **Planned:** broader setup choices and approved deployment. It does not create or delete cloud resources yet.
+
+The files use Terraform, a tool for describing cloud infrastructure as code, with supported templates for AWS, Microsoft Azure, and Google Cloud. This project shows my focus on building practical tools that simplify complex work.
 
 [v0.2.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.2.0) · [Documentation](https://github.com/chriswayneh/TerraForma-IaC#readme) · [Roadmap](https://github.com/chriswayneh/TerraForma-IaC/blob/main/docs/ROADMAP.md)
 
