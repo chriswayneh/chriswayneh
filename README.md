@@ -38,17 +38,9 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
 
-TerraForma creates Terraform configuration files from scratch based on answers to simple questions. Terraform is a tool that uses those files to set up cloud servers, networks, and other resources. TerraForma helps explain and check the files before they’re used.
+TerraForma creates Terraform configuration files from answers to simple questions. Terraform uses these files to define cloud servers, networks, and other resources. I’m building this tool to make cloud setups easier to understand, check, and repeat; TerraForma does not deploy them yet.
 
-I’m building it to make a complicated, manual process easier and more repeatable.
-
-For example, someone who needs a server to host a website can choose a cloud service, name the project, and select who should be able to access it. TerraForma produces downloadable Terraform configuration files for the server and its supporting network. The files can be reviewed, edited, and reused.
-
-**Available now:** a guided browser interface that runs on your own computer, a terminal option, explanations, and local configuration checks. **Planned:** broader setup choices and approved deployment. It does not create or delete cloud resources yet.
-
-It uses supported, built-in templates for AWS, Microsoft Azure, and Google Cloud. This project shows my focus on building practical tools that simplify complex work.
-
-[v0.2.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.2.0) · [Documentation](https://github.com/chriswayneh/TerraForma-IaC#readme) · [Roadmap](https://github.com/chriswayneh/TerraForma-IaC/blob/main/docs/ROADMAP.md)
+[Read the full project explanation](https://github.com/chriswayneh/TerraForma-IaC#readme)
 
 ## Other work
 
