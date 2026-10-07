@@ -6,6 +6,12 @@ I build practical tools, infrastructure labs, and web applications that simplify
 
 ## Featured projects
 
+### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
+
+TerraForma creates Terraform configuration files from answers to simple questions. Terraform uses these files to define cloud servers, networks, and other resources. I’m building this tool to make cloud setups easier to understand, check, and repeat; TerraForma does not deploy them yet.
+
+[Read the full project explanation](https://github.com/chriswayneh/TerraForma-IaC#readme)
+
 ### [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)
 
 A Docker Compose lab for identity lifecycle automation, access reviews, and secrets management using Keycloak, Vault, and Gitea. Monitoring includes Grafana and Alertmanager, with OIDC sign-in and role-based access to selected interfaces.
@@ -35,12 +41,6 @@ A CLI and GitHub Action that checks whether telemetry changes remove fields refe
 A local security assessment platform for scoped host and TCP service discovery, HTTP header checks, and TLS certificate checks. Findings link to retained evidence and can be exported in reports and DockPacks.
 
 [v0.8.1](https://github.com/chriswayneh/RedDock/releases/tag/v0.8.1) · [Documentation](https://github.com/chriswayneh/RedDock#readme) · [Security model](https://github.com/chriswayneh/RedDock/blob/master/SECURITY.md)
-
-### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
-
-TerraForma creates Terraform configuration files from answers to simple questions. Terraform uses these files to define cloud servers, networks, and other resources. I’m building this tool to make cloud setups easier to understand, check, and repeat; TerraForma does not deploy them yet.
-
-[Read the full project explanation](https://github.com/chriswayneh/TerraForma-IaC#readme)
 
 ## Other work
 
