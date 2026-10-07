@@ -38,13 +38,15 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
 
-I’m building TerraForma to make a complicated, manual cloud setup process easier and more repeatable. It turns answers to straightforward questions into setup files, explains what they describe, and helps check them before use.
+TerraForma creates Terraform configuration files from scratch based on answers to simple questions. Terraform is a tool that uses those files to set up cloud servers, networks, and other resources. TerraForma helps explain and check the files before they’re used.
 
-For example, someone who needs a server to host a website can choose a cloud service, name the project, and select who should be able to access it. TerraForma produces a downloadable blueprint for the server and its supporting network. The files can be reviewed, edited, and reused.
+I’m building it to make a complicated, manual process easier and more repeatable.
+
+For example, someone who needs a server to host a website can choose a cloud service, name the project, and select who should be able to access it. TerraForma produces downloadable Terraform configuration files for the server and its supporting network. The files can be reviewed, edited, and reused.
 
 **Available now:** a guided browser interface that runs on your own computer, a terminal option, explanations, and local configuration checks. **Planned:** broader setup choices and approved deployment. It does not create or delete cloud resources yet.
 
-The files use Terraform, a tool for describing cloud infrastructure as code, with supported templates for AWS, Microsoft Azure, and Google Cloud. This project shows my focus on building practical tools that simplify complex work.
+It uses supported, built-in templates for AWS, Microsoft Azure, and Google Cloud. This project shows my focus on building practical tools that simplify complex work.
 
 [v0.2.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.2.0) · [Documentation](https://github.com/chriswayneh/TerraForma-IaC#readme) · [Roadmap](https://github.com/chriswayneh/TerraForma-IaC/blob/main/docs/ROADMAP.md)
 
