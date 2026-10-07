@@ -1,8 +1,8 @@
 # Chris Hickman
 
-**Identity and infrastructure security**
+**Infrastructure, Security & Automation**
 
-Experienced IT and identity security engineer, with hands-on work across IAM. GitHub is the technical side: access control, local platforms, and evidence you can read.
+I build practical tools, infrastructure labs, and web applications that simplify complex work. My projects cover cloud infrastructure, identity and access, security checks, and everyday automation.
 
 ## Featured projects
 
