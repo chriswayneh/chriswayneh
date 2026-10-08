@@ -10,7 +10,7 @@ I build practical tools, infrastructure labs, and web applications that simplify
 
 TerraForma creates Terraform configuration files from answers to simple questions. Terraform uses these files to define cloud servers, networks, and other resources. I’m building this tool to make cloud setups easier to understand, check, and repeat; TerraForma does not deploy them yet.
 
-[Read the full project explanation](https://github.com/chriswayneh/TerraForma-IaC#readme)
+[v0.3.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.3.0) · [Read the full project explanation](https://github.com/chriswayneh/TerraForma-IaC#readme)
 
 ### [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)
 
