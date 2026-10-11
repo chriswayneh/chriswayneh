@@ -16,7 +16,7 @@ TerraForma creates Terraform configuration files from answers to simple question
 
 A Docker Compose lab for identity lifecycle automation, access reviews, and secrets management using Keycloak, Vault, and Gitea. Monitoring includes Grafana and Alertmanager, with OIDC sign-in and role-based access to selected interfaces.
 
-[v2.0.0](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.0) · [Documentation](https://github.com/chriswayneh/lab-in-a-box#readme)
+[v2.0.2](https://github.com/chriswayneh/lab-in-a-box/releases/tag/v2.0.2) · [Documentation](https://github.com/chriswayneh/lab-in-a-box#readme)
 
 ### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
 
@@ -28,13 +28,13 @@ A local Kubernetes platform built on kind with Argo CD, default-deny networking,
 
 A read-only MCP server for inspecting approved files, Git and GitHub metadata, logs, container health, and Python environments. Access is limited by explicit allowlists, with output limits, redaction, and audit records.
 
-[v1.5.2](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.2) · [Documentation](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Release verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
+[v1.5.3](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.3) · [Documentation](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Release verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
 
 ### [detdrift](https://github.com/chriswayneh/detdrift)
 
 A CLI and GitHub Action that checks whether telemetry changes remove fields referenced by detection rules. Supports Sigma, with optional KQL/SPL field extraction, and produces reports and exit codes for CI.
 
-[v1.0.0](https://github.com/chriswayneh/detdrift/releases/tag/v1.0.0) · [Documentation](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md)
+[v1.0.1](https://github.com/chriswayneh/detdrift/releases/tag/v1.0.1) · [Documentation](https://github.com/chriswayneh/detdrift#readme) · [Architecture](https://github.com/chriswayneh/detdrift/blob/main/ARCHITECTURE.md)
 
 ### [RedDock](https://github.com/chriswayneh/RedDock)
 
