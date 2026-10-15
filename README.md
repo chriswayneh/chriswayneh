@@ -16,9 +16,10 @@ I build things in my spare time, picking up projects whenever time allows and wh
 | [detdrift](https://github.com/chriswayneh/detdrift) | Flags detection rules broken by telemetry schema changes | v1.0.1 |
 | [RedDock](https://github.com/chriswayneh/RedDock) | Local scoped discovery and evidence tool for authorized environments | v0.8.1, in progress |
 | [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC) | Generates readable Terraform from guided inputs; does not deploy | v0.3.0 |
-| [crowdkeeper](https://github.com/chriswayneh/crowdkeeper) | CLI tool for Atlassian Crowd | v0.2.0 |
+| [crowdkeeper](https://github.com/chriswayneh/crowdkeeper) | Access audits and joiner, mover, leaver automation for Atlassian Crowd | v0.2.1 |
+| [acasentry](https://github.com/chriswayneh/acasentry) | Access and identity review for Azure Container Apps | v0.2.1 |
 | bbwarden | CLI tool for Bitbucket | In progress, coming soon |
-| [acasentry](https://github.com/chriswayneh/acasentry) | CLI tool for Azure Container Apps access | v0.2.1 |
+| Linchpin | Personal project | In progress, coming soon |
 | [JobDorking](https://jobdorking.com) | One Google search across job boards and career pages | Inactive |
 
 ## Featured projects
@@ -34,6 +35,18 @@ A Docker Compose lab for identity lifecycle automation, access reviews, and secr
 A read-only MCP server for inspecting approved files, Git and GitHub metadata, logs, container health, and Python environments. Access is limited by explicit allowlists, with output limits, redaction, and audit records.
 
 [v1.5.3](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.5.3) · [Documentation](https://github.com/chriswayneh/local-mcp-toolbox#readme) · [Release verification](https://github.com/chriswayneh/local-mcp-toolbox/blob/main/docs/release-1.5.md)
+
+### [crowdkeeper](https://github.com/chriswayneh/crowdkeeper)
+
+A CLI for Atlassian Crowd admins that finds inactive and orphaned accounts, tracks group membership drift, and applies joiner, mover, and leaver changes. Changes are dry-run by default and every applied change is written to an audit log.
+
+[v0.2.1](https://github.com/chriswayneh/crowdkeeper/releases/tag/v0.2.1) · [Documentation](https://github.com/chriswayneh/crowdkeeper#readme)
+
+### [acasentry](https://github.com/chriswayneh/acasentry)
+
+A CLI for access and identity review of Azure Container Apps: role assignments, internet-reachable apps, secrets not in Key Vault, and apps without a managed identity. Its two fix commands print dry-run plans unless told to apply.
+
+[v0.2.1](https://github.com/chriswayneh/acasentry/releases/tag/v0.2.1) · [Documentation](https://github.com/chriswayneh/acasentry#readme)
 
 ### [kube-foundry](https://github.com/chriswayneh/kube-foundry)
 
@@ -55,9 +68,17 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ### [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC)
 
-TerraForma creates Terraform configuration files from answers to simple questions. Terraform uses these files to define cloud servers, networks, and other resources. I’m building this tool to make cloud setups easier to understand, check, and repeat; TerraForma does not deploy them yet.
+A tool that creates Terraform configuration files from answers to simple questions, to make cloud setups easier to understand, check, and repeat. It generates the files but does not deploy them yet.
 
-[v0.3.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.3.0) · [Read the full project explanation](https://github.com/chriswayneh/TerraForma-IaC#readme)
+[v0.3.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.3.0) · [Documentation](https://github.com/chriswayneh/TerraForma-IaC#readme)
+
+### bbwarden (coming soon)
+
+A CLI tool for Bitbucket. Still private while I finish it.
+
+### Linchpin (coming soon)
+
+A personal project I'm working on. Still private while I finish it.
 
 ## Other work
 
