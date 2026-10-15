@@ -16,7 +16,7 @@ I build things in my spare time, picking up projects whenever time allows and wh
 | [detdrift](https://github.com/chriswayneh/detdrift) | Flags detection rules broken by telemetry schema changes | v1.0.1 |
 | [RedDock](https://github.com/chriswayneh/RedDock) | Local scoped discovery and evidence tool for authorized environments | v0.8.1, in progress |
 | [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC) | Generates readable Terraform from guided inputs; does not deploy | v0.3.0 |
-| crowdkeeper | CLI tool for Atlassian Crowd | In progress, coming soon |
+| [crowdkeeper](https://github.com/chriswayneh/crowdkeeper) | CLI tool for Atlassian Crowd | v0.2.0 |
 | bbwarden | CLI tool for Bitbucket | In progress, coming soon |
 | acasentry | CLI tool for Azure Container Apps access | In progress, coming soon |
 | [JobDorking](https://jobdorking.com) | One Google search across job boards and career pages | Inactive |
