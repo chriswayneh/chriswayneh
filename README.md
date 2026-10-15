@@ -53,8 +53,8 @@ I work on projects when time allows, and on whatever has my interest at the mome
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [linchpin v0.1.2](https://github.com/chriswayneh/linchpin/releases/tag/v0.1.2) · 2026-10-15
-- [crowdkeeper v0.2.2](https://github.com/chriswayneh/crowdkeeper/releases/tag/v0.2.2) · 2026-10-15
+- [linchpin v0.2.1](https://github.com/chriswayneh/linchpin/releases/tag/v0.2.1) · 2026-10-15
+- [crowdkeeper v0.2.3](https://github.com/chriswayneh/crowdkeeper/releases/tag/v0.2.3) · 2026-10-15
 - [bbwarden v0.2.3](https://github.com/chriswayneh/bbwarden/releases/tag/v0.2.3) · 2026-10-15
 - [acasentry v0.2.1](https://github.com/chriswayneh/acasentry/releases/tag/v0.2.1) · 2026-10-15
 - [TerraForma-IaC v0.3.0](https://github.com/chriswayneh/TerraForma-IaC/releases/tag/v0.3.0) · 2026-10-08
