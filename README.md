@@ -1,8 +1,8 @@
 # Chris Hickman
 
-**Infrastructure, Security & Automation**
+**Identity security and platform engineering**
 
-I build practical tools, infrastructure labs, and web applications that simplify complex work. My projects cover cloud infrastructure, identity and access, security checks, and everyday automation.
+I'm an IT and identity security professional with hands-on work across IAM. I treat identity as a control plane: least privilege, just-in-time and privileged access, non-human identities, and catching drift before it turns into exposure. Lately that includes AI agents, which I think need the same isolation and least privilege as any other identity. These are the labs and tools I build to work through those problems.
 
 ## Featured projects
 
@@ -44,13 +44,9 @@ A local security assessment platform for scoped host and TCP service discovery, 
 
 ## Other work
 
-### [JobDorking](https://jobdorking.com)
+### [JobDorking](https://jobdorking.com) (inactive)
 
-A live site that was public and is now producing. The source stays private. It builds one Google search across job boards and company career pages. No GitHub release; the private source tracks `main`.
-
-### [Hello Due](https://hellodue.com)
-
-A live site that was public and is now producing. The source stays private. It offers a rate calculator, an invoice generator, and paid downloadable packs.
+A site that builds one Google search across job boards and company career pages. I'm not actively working on it, and the source is private.
 
 ## Contact
 
