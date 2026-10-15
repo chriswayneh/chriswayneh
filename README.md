@@ -18,7 +18,7 @@ I build things in my spare time, picking up projects whenever time allows and wh
 | [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC) | Generates readable Terraform from guided inputs; does not deploy | v0.3.0 |
 | [crowdkeeper](https://github.com/chriswayneh/crowdkeeper) | CLI tool for Atlassian Crowd | v0.2.0 |
 | bbwarden | CLI tool for Bitbucket | In progress, coming soon |
-| acasentry | CLI tool for Azure Container Apps access | In progress, coming soon |
+| [acasentry](https://github.com/chriswayneh/acasentry) | CLI tool for Azure Container Apps access | v0.2.1 |
 | [JobDorking](https://jobdorking.com) | One Google search across job boards and career pages | Inactive |
 
 ## Featured projects
