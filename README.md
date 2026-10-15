@@ -4,6 +4,23 @@
 
 I'm an IT and identity security professional with hands-on work across IAM. I treat identity as a control plane: least privilege, just-in-time and privileged access, non-human identities, and catching drift before it turns into exposure. Lately that includes AI agents, which I think need the same isolation and least privilege as any other identity. These are the labs and tools I build to work through those problems.
 
+## What I'm working on
+
+I build things in my spare time, picking up projects whenever time allows and whatever has my attention right now.
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box) | Self-hosted identity governance lab with Keycloak, Vault, and Gitea | v2.0.2 |
+| [Local MCP Toolbox](https://github.com/chriswayneh/local-mcp-toolbox) | Read-only MCP server with allowlists, redaction, and audit records | v1.5.3 |
+| [kube-foundry](https://github.com/chriswayneh/kube-foundry) | Local Kubernetes platform with GitOps, policies, and tested rollback | v1.1.0 |
+| [detdrift](https://github.com/chriswayneh/detdrift) | Flags detection rules broken by telemetry schema changes | v1.0.1 |
+| [RedDock](https://github.com/chriswayneh/RedDock) | Local scoped discovery and evidence tool for authorized environments | v0.8.1, in progress |
+| [TerraForma-IaC](https://github.com/chriswayneh/TerraForma-IaC) | Generates readable Terraform from guided inputs; does not deploy | v0.3.0 |
+| crowdkeeper | CLI tool for Atlassian Crowd | In progress, coming soon |
+| bbwarden | CLI tool for Bitbucket | In progress, coming soon |
+| acasentry | CLI tool for Azure Container Apps access | In progress, coming soon |
+| [JobDorking](https://jobdorking.com) | One Google search across job boards and career pages | Inactive |
+
 ## Featured projects
 
 ### [Lab-in-a-Box](https://github.com/chriswayneh/lab-in-a-box)
