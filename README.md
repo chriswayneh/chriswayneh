@@ -9,6 +9,8 @@ Identity as a control plane: least privilege, just-in-time and privileged access
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-chriswhickman-0A66C2?style=flat)](https://www.linkedin.com/in/chriswhickman/)
 [![GitHub](https://img.shields.io/badge/GitHub-chriswayneh-1f2328?style=flat&logo=github&logoColor=white)](https://github.com/chriswayneh)
 
+[🤖 See what my AI agents are up to (they don't sleep, I do)](https://grok-dashboard.vercel.app)
+
 </div>
 
 ## About
