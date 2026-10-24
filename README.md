@@ -41,6 +41,8 @@ I work on projects when time allows, and on whatever has my interest at the mome
 
 ## Featured projects
 
+📌 My pinned repos are the projects I've worked on most recently.
+
 | Project | What it is | Status |
 | --- | --- | --- |
 | [**Lab-in-a-Box**](https://github.com/chriswayneh/lab-in-a-box) | Self-hosted identity governance lab with Keycloak, Vault, and Gitea | [![release](https://img.shields.io/github/v/release/chriswayneh/lab-in-a-box?style=flat&label=release)](https://github.com/chriswayneh/lab-in-a-box/releases/latest) [![CI](https://github.com/chriswayneh/lab-in-a-box/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/lab-in-a-box/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/lab-in-a-box?style=flat) |
