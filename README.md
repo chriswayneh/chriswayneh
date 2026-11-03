@@ -6,6 +6,8 @@
 
 Identity as a control plane: least privilege, just-in-time and privileged access, non-human identities, and catching drift before it turns into exposure.
 
+**I build identity and access tools for teams that handle sensitive data, including PHI and PII in healthcare.**
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-chriswhickman-0A66C2?style=flat)](https://www.linkedin.com/in/chriswhickman/)
 [![GitHub](https://img.shields.io/badge/GitHub-chriswayneh-1f2328?style=flat&logo=github&logoColor=white)](https://github.com/chriswayneh)
 
@@ -20,6 +22,10 @@ I'm an IT and identity security professional with hands-on work across IAM. I tr
 This GitHub is my personal playground for building and learning in the open.
 
 I work on projects when time allows, and on whatever has my interest at the moment.
+
+## Healthcare background
+
+Before IAM, I spent almost 7 years at [MEDHOST](https://www.medhost.com/), a healthcare software company. I was promoted to Support Lead in my first year, then moved into quality and implementation engineering. I took hospital systems from go-live through support and kept their SQL databases healthy. That's why I build tools like datagrant for teams that handle patient data.
 
 ## Tech stack
 
@@ -43,20 +49,38 @@ I work on projects when time allows, and on whatever has my interest at the mome
 
 📌 My pinned repos are the projects I think are most useful right now, starting with my newest.
 
+### Spotlight: datagrant
+
+[**datagrant**](https://github.com/chriswayneh/datagrant) gives temporary, masked access to PHI and PII in Postgres, with signed access receipts. [Try the preview site](https://datagrant-preview.vercel.app).
+
+<img src="https://raw.githubusercontent.com/chriswayneh/datagrant/main/docs/assets/demo.gif" alt="datagrant demo" width="720">
+
+### Healthcare data access
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [**datagrant**](https://github.com/chriswayneh/datagrant) | Temporary, masked access to PHI and PII in Postgres, with signed access receipts | [![release](https://img.shields.io/github/v/release/chriswayneh/datagrant?style=flat&label=release)](https://github.com/chriswayneh/datagrant/releases/latest) [![CI](https://github.com/chriswayneh/datagrant/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/datagrant/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/datagrant?style=flat) |
+
+### Identity and access
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [**crowdkeeper**](https://github.com/chriswayneh/crowdkeeper) | Access audits and joiner, mover, leaver automation for Atlassian Crowd | [![release](https://img.shields.io/github/v/release/chriswayneh/crowdkeeper?style=flat&label=release)](https://github.com/chriswayneh/crowdkeeper/releases/latest) [![CI](https://github.com/chriswayneh/crowdkeeper/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/crowdkeeper/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/crowdkeeper?style=flat) |
+| [**bbwarden**](https://github.com/chriswayneh/bbwarden) | Least-privilege and offboarding review for Bitbucket Cloud and Data Center | [![release](https://img.shields.io/github/v/release/chriswayneh/bbwarden?style=flat&label=release)](https://github.com/chriswayneh/bbwarden/releases/latest) [![CI](https://github.com/chriswayneh/bbwarden/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/bbwarden/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/bbwarden?style=flat) |
+| [**acasentry**](https://github.com/chriswayneh/acasentry) | Access and identity review for Azure Container Apps | [![release](https://img.shields.io/github/v/release/chriswayneh/acasentry?style=flat&label=release)](https://github.com/chriswayneh/acasentry/releases/latest) [![CI](https://github.com/chriswayneh/acasentry/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/acasentry/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/acasentry?style=flat) |
+| [**Linchpin**](https://github.com/chriswayneh/linchpin) | Read-only identity review across Entra ID, Okta, Crowd, and Bitbucket exports: admins without MFA, stale accounts, leavers still active | [![release](https://img.shields.io/github/v/release/chriswayneh/linchpin?style=flat&label=release)](https://github.com/chriswayneh/linchpin/releases/latest) [![CI](https://github.com/chriswayneh/linchpin/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/linchpin/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/linchpin?style=flat) |
+
+### Security and infrastructure
+
 | Project | What it is | Status |
 | --- | --- | --- |
 | [**Lab-in-a-Box**](https://github.com/chriswayneh/lab-in-a-box) | Self-hosted identity governance lab with Keycloak, Vault, and Gitea | [![release](https://img.shields.io/github/v/release/chriswayneh/lab-in-a-box?style=flat&label=release)](https://github.com/chriswayneh/lab-in-a-box/releases/latest) [![CI](https://github.com/chriswayneh/lab-in-a-box/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/lab-in-a-box/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/lab-in-a-box?style=flat) |
 | [**Local MCP Toolbox**](https://github.com/chriswayneh/local-mcp-toolbox) | Read-only MCP server with allowlists, redaction, and audit records | [![release](https://img.shields.io/github/v/release/chriswayneh/local-mcp-toolbox?style=flat&label=release)](https://github.com/chriswayneh/local-mcp-toolbox/releases/latest) [![CI](https://github.com/chriswayneh/local-mcp-toolbox/actions/workflows/quality.yml/badge.svg)](https://github.com/chriswayneh/local-mcp-toolbox/actions/workflows/quality.yml) ![license](https://img.shields.io/github/license/chriswayneh/local-mcp-toolbox?style=flat) |
-| [**datagrant**](https://github.com/chriswayneh/datagrant) | Just-in-time, expiring, masked access to PHI/PII in Postgres, with signed access receipts | [![release](https://img.shields.io/github/v/release/chriswayneh/datagrant?style=flat&label=release)](https://github.com/chriswayneh/datagrant/releases/latest) [![CI](https://github.com/chriswayneh/datagrant/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/datagrant/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/datagrant?style=flat) |
-| [**crowdkeeper**](https://github.com/chriswayneh/crowdkeeper) | Access audits and joiner, mover, leaver automation for Atlassian Crowd | [![release](https://img.shields.io/github/v/release/chriswayneh/crowdkeeper?style=flat&label=release)](https://github.com/chriswayneh/crowdkeeper/releases/latest) [![CI](https://github.com/chriswayneh/crowdkeeper/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/crowdkeeper/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/crowdkeeper?style=flat) |
-| [**acasentry**](https://github.com/chriswayneh/acasentry) | Access and identity review for Azure Container Apps | [![release](https://img.shields.io/github/v/release/chriswayneh/acasentry?style=flat&label=release)](https://github.com/chriswayneh/acasentry/releases/latest) [![CI](https://github.com/chriswayneh/acasentry/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/acasentry/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/acasentry?style=flat) |
 | [**kube-foundry**](https://github.com/chriswayneh/kube-foundry) | Local Kubernetes platform with GitOps, policies, and tested rollback | [![release](https://img.shields.io/github/v/release/chriswayneh/kube-foundry?style=flat&label=release)](https://github.com/chriswayneh/kube-foundry/releases/latest) [![CI](https://github.com/chriswayneh/kube-foundry/actions/workflows/ci.yaml/badge.svg)](https://github.com/chriswayneh/kube-foundry/actions/workflows/ci.yaml) ![license](https://img.shields.io/github/license/chriswayneh/kube-foundry?style=flat) |
 | [**detdrift**](https://github.com/chriswayneh/detdrift) | Flags detection rules broken by telemetry schema changes | [![release](https://img.shields.io/github/v/release/chriswayneh/detdrift?style=flat&label=release)](https://github.com/chriswayneh/detdrift/releases/latest) [![CI](https://github.com/chriswayneh/detdrift/actions/workflows/detdrift.yml/badge.svg)](https://github.com/chriswayneh/detdrift/actions/workflows/detdrift.yml) ![license](https://img.shields.io/github/license/chriswayneh/detdrift?style=flat) |
 | [**resilint**](https://github.com/chriswayneh/resilint) | Offline lint for critical-vendor resilience commitments (notice SLAs, recovery times, exit plans, testing), mapped to DORA, NIS2 and UK PRA SS2/21. CLI + GitHub Action | [![release](https://img.shields.io/github/v/release/chriswayneh/resilint?style=flat&label=release)](https://github.com/chriswayneh/resilint/releases/latest) [![CI](https://github.com/chriswayneh/resilint/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/resilint/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/resilint?style=flat) |
 | [**RedDock**](https://github.com/chriswayneh/RedDock) | Local scoped discovery and evidence tool for authorized environments (in progress) | [![release](https://img.shields.io/github/v/release/chriswayneh/RedDock?style=flat&label=release)](https://github.com/chriswayneh/RedDock/releases/latest) [![CI](https://github.com/chriswayneh/RedDock/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/RedDock/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/RedDock?style=flat) |
 | [**TerraForma-IaC**](https://github.com/chriswayneh/TerraForma-IaC) | Generates readable Terraform from guided inputs; does not deploy | [![release](https://img.shields.io/github/v/release/chriswayneh/TerraForma-IaC?style=flat&label=release)](https://github.com/chriswayneh/TerraForma-IaC/releases/latest) [![CI](https://github.com/chriswayneh/TerraForma-IaC/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/TerraForma-IaC/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/TerraForma-IaC?style=flat) |
-| [**bbwarden**](https://github.com/chriswayneh/bbwarden) | Least-privilege and offboarding review for Bitbucket Cloud and Data Center | [![release](https://img.shields.io/github/v/release/chriswayneh/bbwarden?style=flat&label=release)](https://github.com/chriswayneh/bbwarden/releases/latest) [![CI](https://github.com/chriswayneh/bbwarden/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/bbwarden/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/bbwarden?style=flat) |
-| [**Linchpin**](https://github.com/chriswayneh/linchpin) | Read-only identity review across Entra ID, Okta, Crowd, and Bitbucket exports: admins without MFA, stale accounts, leavers still active | [![release](https://img.shields.io/github/v/release/chriswayneh/linchpin?style=flat&label=release)](https://github.com/chriswayneh/linchpin/releases/latest) [![CI](https://github.com/chriswayneh/linchpin/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/linchpin/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/linchpin?style=flat) |
 
 ## Recently shipped
 
