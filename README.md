@@ -17,7 +17,7 @@ Identity as a control plane: least privilege, just-in-time and privileged access
 
 I'm an IT and identity security professional with hands-on work across IAM. I treat identity as a control plane: least privilege, just-in-time and privileged access, non-human identities, and catching drift before it turns into exposure. Lately that includes AI agents, which I think need the same isolation and least privilege as any other identity. These are the labs and tools I build to work through those problems.
 
-My experience with identity and sensitive data includes implementing Saviynt identity governance at [Blue Yonder](https://blueyonder.com/), Okta identity work at [Armor](https://www.armor.com/), and work at [MEDHOST](https://www.medhost.com/) supporting hospital systems in HIPAA-regulated environments.
+My experience with identity and sensitive data includes implementing Saviynt identity governance at [Blue Yonder](https://blueyonder.com/), Okta identity work at [Armor](https://www.armor.com/), and supporting hospital systems at [MEDHOST](https://www.medhost.com/) in HIPAA-regulated environments.
 
 This GitHub is my personal playground for building and learning in the open.
 
@@ -47,7 +47,7 @@ I work on projects when time allows, and on whatever has my interest at the mome
 
 ### Spotlight: datagrant
 
-[**datagrant**](https://github.com/chriswayneh/datagrant) gives temporary, masked access to sensitive data in Postgres, with signed access receipts. [Try the preview site](https://datagrant-preview.vercel.app).
+[**datagrant**](https://github.com/chriswayneh/datagrant) gives temporary, masked access to sensitive data in Postgres, with signed access receipts.
 
 <img src="https://raw.githubusercontent.com/chriswayneh/datagrant/main/docs/assets/demo.gif" alt="datagrant demo" width="720">
 
