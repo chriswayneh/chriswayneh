@@ -6,8 +6,6 @@
 
 Identity as a control plane: least privilege, just-in-time and privileged access, non-human identities, and catching drift before it turns into exposure.
 
-**I build identity and access tools for teams that handle sensitive data, including PHI and PII in healthcare.**
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-chriswhickman-0A66C2?style=flat)](https://www.linkedin.com/in/chriswhickman/)
 [![GitHub](https://img.shields.io/badge/GitHub-chriswayneh-1f2328?style=flat&logo=github&logoColor=white)](https://github.com/chriswayneh)
 
@@ -19,13 +17,11 @@ Identity as a control plane: least privilege, just-in-time and privileged access
 
 I'm an IT and identity security professional with hands-on work across IAM. I treat identity as a control plane: least privilege, just-in-time and privileged access, non-human identities, and catching drift before it turns into exposure. Lately that includes AI agents, which I think need the same isolation and least privilege as any other identity. These are the labs and tools I build to work through those problems.
 
+My experience with sensitive and private data includes almost 7 years at [MEDHOST](https://www.medhost.com/) supporting hospital systems in HIPAA-regulated environments.
+
 This GitHub is my personal playground for building and learning in the open.
 
 I work on projects when time allows, and on whatever has my interest at the moment.
-
-## Healthcare background
-
-Before IAM, I spent almost 7 years at [MEDHOST](https://www.medhost.com/), a healthcare software company. I was promoted to Support Lead in my first year, then moved into quality and implementation engineering. I took hospital systems from go-live through support and kept their SQL databases healthy. That's why I build tools like datagrant for teams that handle patient data.
 
 ## Tech stack
 
@@ -51,11 +47,11 @@ Before IAM, I spent almost 7 years at [MEDHOST](https://www.medhost.com/), a hea
 
 ### Spotlight: datagrant
 
-[**datagrant**](https://github.com/chriswayneh/datagrant) gives temporary, masked access to PHI and PII in Postgres, with signed access receipts. [Try the preview site](https://datagrant-preview.vercel.app).
+[**datagrant**](https://github.com/chriswayneh/datagrant) gives temporary, masked access to sensitive data in Postgres, with signed access receipts. [Try the preview site](https://datagrant-preview.vercel.app).
 
 <img src="https://raw.githubusercontent.com/chriswayneh/datagrant/main/docs/assets/demo.gif" alt="datagrant demo" width="720">
 
-### Healthcare data access
+### Sensitive data access
 
 | Project | What it is | Status |
 | --- | --- | --- |
