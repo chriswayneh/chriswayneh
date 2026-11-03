@@ -41,12 +41,13 @@ I work on projects when time allows, and on whatever has my interest at the mome
 
 ## Featured projects
 
-📌 My pinned repos are the projects I've worked on most recently.
+📌 My pinned repos are the projects I think are most useful right now, starting with my newest.
 
 | Project | What it is | Status |
 | --- | --- | --- |
 | [**Lab-in-a-Box**](https://github.com/chriswayneh/lab-in-a-box) | Self-hosted identity governance lab with Keycloak, Vault, and Gitea | [![release](https://img.shields.io/github/v/release/chriswayneh/lab-in-a-box?style=flat&label=release)](https://github.com/chriswayneh/lab-in-a-box/releases/latest) [![CI](https://github.com/chriswayneh/lab-in-a-box/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/lab-in-a-box/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/lab-in-a-box?style=flat) |
 | [**Local MCP Toolbox**](https://github.com/chriswayneh/local-mcp-toolbox) | Read-only MCP server with allowlists, redaction, and audit records | [![release](https://img.shields.io/github/v/release/chriswayneh/local-mcp-toolbox?style=flat&label=release)](https://github.com/chriswayneh/local-mcp-toolbox/releases/latest) [![CI](https://github.com/chriswayneh/local-mcp-toolbox/actions/workflows/quality.yml/badge.svg)](https://github.com/chriswayneh/local-mcp-toolbox/actions/workflows/quality.yml) ![license](https://img.shields.io/github/license/chriswayneh/local-mcp-toolbox?style=flat) |
+| [**datagrant**](https://github.com/chriswayneh/datagrant) | Just-in-time, expiring, masked access to PHI/PII in Postgres, with signed access receipts | [![release](https://img.shields.io/github/v/release/chriswayneh/datagrant?style=flat&label=release)](https://github.com/chriswayneh/datagrant/releases/latest) [![CI](https://github.com/chriswayneh/datagrant/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/datagrant/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/datagrant?style=flat) |
 | [**crowdkeeper**](https://github.com/chriswayneh/crowdkeeper) | Access audits and joiner, mover, leaver automation for Atlassian Crowd | [![release](https://img.shields.io/github/v/release/chriswayneh/crowdkeeper?style=flat&label=release)](https://github.com/chriswayneh/crowdkeeper/releases/latest) [![CI](https://github.com/chriswayneh/crowdkeeper/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/crowdkeeper/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/crowdkeeper?style=flat) |
 | [**acasentry**](https://github.com/chriswayneh/acasentry) | Access and identity review for Azure Container Apps | [![release](https://img.shields.io/github/v/release/chriswayneh/acasentry?style=flat&label=release)](https://github.com/chriswayneh/acasentry/releases/latest) [![CI](https://github.com/chriswayneh/acasentry/actions/workflows/ci.yml/badge.svg)](https://github.com/chriswayneh/acasentry/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/chriswayneh/acasentry?style=flat) |
 | [**kube-foundry**](https://github.com/chriswayneh/kube-foundry) | Local Kubernetes platform with GitOps, policies, and tested rollback | [![release](https://img.shields.io/github/v/release/chriswayneh/kube-foundry?style=flat&label=release)](https://github.com/chriswayneh/kube-foundry/releases/latest) [![CI](https://github.com/chriswayneh/kube-foundry/actions/workflows/ci.yaml/badge.svg)](https://github.com/chriswayneh/kube-foundry/actions/workflows/ci.yaml) ![license](https://img.shields.io/github/license/chriswayneh/kube-foundry?style=flat) |
@@ -60,6 +61,7 @@ I work on projects when time allows, and on whatever has my interest at the mome
 ## Recently shipped
 
 <!-- RECENT:START -->
+- [datagrant v0.1.0](https://github.com/chriswayneh/datagrant/releases/tag/v0.1.0) · 2026-11-02
 - [resilint v0.4.0](https://github.com/chriswayneh/resilint/releases/tag/v0.4.0) · 2026-10-24
 - [local-mcp-toolbox v1.6.1](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.6.1) · 2026-10-24
 - [crowdkeeper v0.2.4](https://github.com/chriswayneh/crowdkeeper/releases/tag/v0.2.4) · 2026-10-22
