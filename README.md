@@ -81,7 +81,7 @@ I work on projects when time allows, and on whatever has my interest at the mome
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [datagrant v0.1.0](https://github.com/chriswayneh/datagrant/releases/tag/v0.1.0) · 2026-11-03
+- [datagrant v0.2.0](https://github.com/chriswayneh/datagrant/releases/tag/v0.2.0) · 2026-11-05
 - [resilint v0.4.0](https://github.com/chriswayneh/resilint/releases/tag/v0.4.0) · 2026-10-24
 - [local-mcp-toolbox v1.6.1](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.6.1) · 2026-10-24
 - [crowdkeeper v0.2.4](https://github.com/chriswayneh/crowdkeeper/releases/tag/v0.2.4) · 2026-10-22
