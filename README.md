@@ -81,7 +81,7 @@ I work on projects when time allows, and on whatever has my interest at the mome
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [datagrant v0.4.0](https://github.com/chriswayneh/datagrant/releases/tag/v0.4.0) · 2026-11-11
+- [datagrant v0.5.0](https://github.com/chriswayneh/datagrant/releases/tag/v0.5.0) · 2026-11-12
 - [resilint v1.0.0](https://github.com/chriswayneh/resilint/releases/tag/v1.0.0) · 2026-11-05
 - [RedDock v0.8.3](https://github.com/chriswayneh/RedDock/releases/tag/v0.8.3) · 2026-11-05
 - [local-mcp-toolbox v1.6.1](https://github.com/chriswayneh/local-mcp-toolbox/releases/tag/v1.6.1) · 2026-10-24
